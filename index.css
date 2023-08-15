@@ -1,0 +1,266 @@
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif !important;
+}
+.secao-formulario{
+    display: flex;
+    width: 533px;
+    flex-direction: column;
+    margin: 50px;
+    height: 95vh;
+}
+.background-image{
+    background: url('./assets/bg.png');
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+.titulo-form {
+    font-size: 50px;
+    color: #0587FF;
+    text-align-last: center;color: var(--link-color, #0587FF);
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    gap: 10px;
+}
+.logo-maga{
+    width: 40px;
+    height: 37px;
+}
+.descricao-form {
+    color:  #737373;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 38px;
+    width: 338px;
+    margin-left: 50px;
+}
+.formulario{
+    align-items: center;
+    width: 533px;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.escrito{
+    width: 400px;
+    height: 60px;
+}
+label{
+    display: block;
+    color: #989898;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #DBDBDB !important;
+    line-height: 170%;
+    width: 100%;
+}
+.cabecalho{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a.anexar-curriculo {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 48px;
+    border-radius: 73px;
+    border: 2px solid #57AEFF;
+    justify-content: center;
+    text-decoration: none;
+    color: #0587FF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-cloud{
+    margin-right: 10px;
+}
+.area-login{
+    width: 400px;
+    display: flex;
+    height: 56px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.cadastrar{
+    border-radius: 65px;
+    background: #57AEFF;
+    width: 250px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.login{
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    width: 101px;
+    height: 24px;
+    color: #989898;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
